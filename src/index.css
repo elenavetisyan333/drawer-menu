@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0d11;
+  color: white;
+  font-family: 'Roboto', sans-serif;;
+}
+#content{
+  padding: 30px 30px;
+}
+#content > button{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 28px;
+  transition: 0.1s;
+}
+#content > button:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.1s;
+}
+#menuDiv{
+  margin-top: 7px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  padding: 10px 12px;
+}
+.section{
+  background-color: rgb(0, 0, 0, 0);
+  width: max-content;
+  padding: 8px 22px;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.title{
+  display: flex;
+  gap: 10px;  
+}
+.title:hover{
+  cursor: pointer;
+}
+.title p{
+  color: rgba(255, 255, 255, 0.9);
+}
